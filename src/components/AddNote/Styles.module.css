@@ -29,6 +29,7 @@
     color: #eee;
     border-radius: 10px;
     font-size: 20px;
+    cursor:pointer;
 }
 .delete_all{
     background-color: #d71111;
