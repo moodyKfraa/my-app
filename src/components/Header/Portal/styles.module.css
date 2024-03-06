@@ -1,0 +1,47 @@
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    background-color: #333;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portal{
+    background-color: #eee;
+    padding: 50px;
+    border-radius: 20px;
+    position: relative;
+}
+span{
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    font-size: 25px;
+    color: red;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.portal form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+form input{
+    padding: 10px ;
+    font-size: 15px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    outline: #333 1px solid;
+    color: #333;
+}
+h1{
+    text-transform: capitalize;
+    margin: 0;
+}

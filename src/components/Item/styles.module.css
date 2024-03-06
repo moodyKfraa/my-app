@@ -1,0 +1,20 @@
+.item{
+    min-width: 50px;
+    max-width: 200px;
+    padding: 10px 20px;
+    box-shadow: hsl(0, 0%, 20%) 0px 0px 2px ;
+    border-radius: 5px;
+    color: #333;
+    cursor: pointer;
+}
+.item:hover{
+    background-color: #d71111;
+    color: #eee;
+}
+p{
+    margin: 0;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: pre;
+    overflow: hidden;
+}

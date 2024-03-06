@@ -1,0 +1,15 @@
+.item_box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+.delete_all{
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
